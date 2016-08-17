@@ -1,0 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/EChart" "$PODS_CONFIGURATION_BUILD_DIR/HCharts" "$PODS_CONFIGURATION_BUILD_DIR/ZCharts"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/EChart/EChart.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/HCharts/HCharts.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ZCharts/ZCharts.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "EChart" -framework "HCharts" -framework "ZCharts"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

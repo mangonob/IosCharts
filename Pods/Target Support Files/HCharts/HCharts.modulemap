@@ -1,0 +1,6 @@
+framework module HCharts {
+  umbrella header "HCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}

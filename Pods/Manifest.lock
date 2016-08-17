@@ -1,0 +1,18 @@
+PODS:
+  - EChart (0.1.1)
+  - HCharts (0.1.0)
+  - ZCharts (2.0.0)
+
+DEPENDENCIES:
+  - EChart (~> 0.1.1)
+  - HCharts (~> 0.1.0)
+  - ZCharts (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  EChart: 2c23edc06e72c396d283732c2338711c33d7644d
+  HCharts: ce8c7a5694db309906c0738423c0b440f84f82c5
+  ZCharts: eb5e3c33fb4c561c3696adbc08b720fe4758a28f
+
+PODFILE CHECKSUM: 6de0f428f399c65faa26b7473a13439244bddeba
+
+COCOAPODS: 1.0.1
